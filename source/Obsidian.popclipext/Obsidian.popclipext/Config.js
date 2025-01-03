@@ -68,7 +68,7 @@ define({
 				if (options.heading) {
 					content += "- ";
 				}
-				content += selection.markdown.trim();
+				content += selection.text.trim();
 				if (options.sourceLink && selection.browserUrl) {
 					content += `\n[${selection.browserTitle || "Source"}](${selection.browserUrl})`;
 				}
