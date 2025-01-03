@@ -64,7 +64,7 @@ define({
 				if (options.heading) {
 					url.searchParams.append("heading", options.heading);
 				}
-				let content = (options.newFile ? "" : "\n");
+				let content = "";
 				if (options.heading) {
 					content += "- ";
 				}
